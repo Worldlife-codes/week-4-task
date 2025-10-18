@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chidera Portfolio</title>      
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header section -->
+    <header class="header">
+        <div class="logo">
+            <img src="./my photo/logo.jpg" alt="logo" width="100" height="80">            
+        </div>
+
+        <div class="site-title"><h2>Chidera Portfolio</h2></div>    
+
+        <!-- Hidden checkbox for toggle -->
+        <label for="menu-toggle" class="hamburger">
+            <i class="fas fa-bars"> <strong>Menu</strong></i>
+        </label>
+
+        <div class="nav">
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Project</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+        
+    </header>
+
+    <!-- About section -->
+    <section id="about" class="about">
+    <div class="about-text">
+        <h2>About Me</h2>
+        <p>Hello! I'm <strong>Chidera Uwandu</strong>, a passionate web developer and technology enthusiast. 
+           I enjoy creating interactive, responsive, and user-friendly web applications using modern technologies like HTML, and CSS. 
+        </p>
+    </div>
+    <div class="about-img">
+         <img src="./my photo/my photo.jpg" alt="Chidera photo" width="350" height="350">
+    </div>
+    </section>
+
+    <!-- Project section -->
+    <section id="Projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="./my photo/mini.jpg" alt="Project 1" width="400" height="250">
+                <h3>Mini Web Page</h3>
+                <p>Built a mini web page.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="./my photo/mn.jpg" alt="Project 2" width="400" height="250">
+                <h3>HTML5 Webpage</h3>
+                <p>A personal portfolio built using HTML.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="./my photo/css concept.jpg" alt="Project 3" width="400" height="250">
+                <h3>Portfolio Website</h3>
+                <p>Fully styled About Me webpage using CSS concepts.</p>
+            </div>
+        </div>
+   </section>
+
+   <!-- Contact Section -->
+   <section id="contact" class="contact">
+        <h2>Let's connect! Reach me at:</h2>
+        <form action="mailto:chiderauwandu1@gmail.com" method="post" enctype="text/plain">
+            <div>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            
+            <div class="message-box">
+                <textarea placeholder="Your Message" rows="3" cols="47%" required></textarea>
+            </div>
+
+            <button type="submit"> Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+     <footer>
+        <p>&copy; 2025 Chidera. All Rights Reserved</p>
+        <div class="social-links">
+            <a href="#" ><i class="github">Github</i></a>
+            <a href="#" ><i class="linkedin">Linkedin</i></a>
+            <a href="#" ><i class="twitter">Twitter</i></a>
+        </div>
+     </footer>
+
+</body>
+</html>
