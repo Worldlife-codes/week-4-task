@@ -189,6 +189,61 @@ h2 {
     text-align: center;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+.contact {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact form {
+    width:100%;
+}
+
+.contact input,
+.contact textarea {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 10%;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.contact textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+}
+
+.input-row {
+    flex: 1;
+    min-width: 0;
+}
+
+@media (max-width: 600px) {
+    .contact {
+        width: 90%;
+    }
+
+    .input-row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .contact input, 
+    .contact textarea {
+        width: 100%;
+    }
+}
+
 footer {
     text-align: center;
 }
